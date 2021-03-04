@@ -1,7 +1,7 @@
 {"email": "test@email.com","name": "test_name","time": "7s","comment": "Test0 - Pozitive",}
 {"email": "test@email.com","name": "test_name","time": "7m","comment": "Test1 - Pozitive",}
 {"email": "test@email.com","name": "test_name","time": "7d","comment": "Test2 - Pozitive"}
-{"email": "test@email.com","name": "","time": "7d","comment": "Test3 - Negative"}
+{"email": "test@email.com","name": "#","time": "7d","comment": "Test3 - Negative"}
 {"email": "test@email.com","name": "","time": "7d","comment": "Test4 - Negative"}
 {"email": "test@email","name": "test_name","time": "7d","comment": "Test5 - Negative"}
 {"email": "@email.com","name": "test_name","time": "7d","comment": "Test6 - Negative"}

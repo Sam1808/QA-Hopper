@@ -58,7 +58,7 @@ def test_subscribe_period(create_subscrider, test_data, api_url):
     check_response = requests.get(api_url).json()
     assert len(check_response) == True, 'Should receive data'
 
-    subscribe_created_at = datetime.strptime(check_response[0]['created_at'], '%Y-%m-%dT%H:%M:%S.%f')  # TODO if subscriber not found?
+    subscribe_created_at = datetime.strptime(check_response[0]['created_at'], '%Y-%m-%dT%H:%M:%S.%f')
     subscribe_expired_at = datetime.strptime(check_response[0]['expired_at'], '%Y-%m-%dT%H:%M:%S.%f')
     time = subscribe_expired_at - subscribe_created_at
     if test_data['time'].lstrip(string.digits).startswith('d'):
